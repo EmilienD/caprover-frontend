@@ -143,7 +143,6 @@ class NormalLoginForm extends React.Component<
                     <Collapse.Panel header="Remember Me" key="1">
                         <Radio.Group
                             onChange={(e) => {
-                                console.log(e.target.value)
                                 self.setState({
                                     loginOption: e.target.value,
                                 })
